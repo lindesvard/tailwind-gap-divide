@@ -3,10 +3,10 @@ import tailwindcss from "tailwindcss";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-	plugins: [react()],
-	css: {
-		postcss: {
-			plugins: [tailwindcss()],
-		},
-	},
+  plugins: [react()],
+  css: {
+    postcss: {
+      plugins: [tailwindcss()],
+    },
+  },
 });
