@@ -7,12 +7,12 @@
   "type": "module",
   "main": "plugin.js",
   "types": "plugin.d.ts",
-  "files": ["plugin.js", "plugin.d.ts"],
+  "files": [
+    "plugin.js",
+    "plugin.d.ts"
+  ],
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "vite"
   },
   "dependencies": {
     "react": "^18.3.1",
